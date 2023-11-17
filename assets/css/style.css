@@ -43,6 +43,7 @@ body {
   background-color: #f8f8f8;  
   /* Default background color */
   transition: background-color 0.3s ease;
+  user-select: none;
 }
 
 
