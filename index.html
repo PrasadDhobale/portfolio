@@ -829,7 +829,14 @@
 			    bgColor[i].style.color = '#f8f8f8';
 			  }
 			}
-			
+			document.addEventListener('keydown', function (e) {
+			  // Check if the pressed key is a function key (F1 to F12)
+			  if (e.key.startsWith('F')) {
+			    e.preventDefault(); // Prevent the default behavior
+			    console.log('Function key pressed: ' + e.key);
+			    // You can add your custom logic here if needed
+			  }
+			});
 		</script>
 	</body>
 </html>
