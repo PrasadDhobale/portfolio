@@ -214,7 +214,7 @@ or at least read this note: http://i.imgur.com/7C0ws9e.gif
     width: 100%;
     position: relative;
     overflow: hidden;
-    padding: 20px 4%;
+    /* padding: 20px 20px; */
 }
 .vbox-container img{
     max-width: 100%;
