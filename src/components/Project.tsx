@@ -1,5 +1,4 @@
 import React from "react";
-import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
@@ -23,8 +22,8 @@ function Project() {
                 <p>Designed, developed, and deployed Internship co-ordination portal to track and monitor interns progress using PHP and MySQL.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Smart Online Examination Platform</h2></a>
+                <a href="https://github.com/PrasadDhobale/Online-Exam-System" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/PrasadDhobale/Online-Exam-System" target="_blank" rel="noreferrer"><h2>Smart Online Examination Platform</h2></a>
                 <p>Developed Smart Online Examination Platform to smoothen the Exam of Students tracked by respective Teachers using Servlet, JSP, JSTL, MYSQL.</p>
             </div>
             <div className="project">
